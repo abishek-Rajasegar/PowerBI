@@ -1,0 +1,50 @@
+Hi there,
+
+I hope this email finds you well. I would like to bring to your attention some improvements that can be made to the data
+in our transaction and demography tables. These changes will help ensure data consistency,
+ accuracy, and better usability for our analysis. 
+
+Global Changes:
+1. Removing Empty Columns: There are several columns in the transaction table that do not contain any data.
+ It would be beneficial to remove these empty columns to streamline the dataset and avoid confusion.
+2. Promoting First Row as Header: To enhance clarity and facilitate data analysis, 
+I suggest promoting the first row of the transaction table as the header row.
+ This will provide column names for easier identification and interpretation of the data.
+
+Transaction Table:
+1. Formatting Currency Columns: It would be helpful to change the formatting of columns that deal with prices to a currency format. 
+This will enhance readability and ensure consistency when working with monetary values.
+
+2.Online order columns has blank values so update the values to false. 
+Than using True or false use online or non online orders which can provide a better understanding.  
+
+Address Table:
+1.State colum values are inconsistent.Either use full form or abbrivation.
+
+
+Demography Table:
+1. Consistent Naming Convention: The gender column in the demography table contains inconsistent data, 
+with some entries using "F" and "M" instead of the proper naming conventions. 
+To rectify this, I recommend using the full words "Female" and "Male" consistently throughout the column.
+
+2. Correcting DOB Column Datatype: The DOB (Date of Birth) column in the demography table currently has an incorrect datatype.
+It should be changed to a date format to ensure accurate calculations and enable appropriate date-based analysis.
+
+3. Handling Missing Job Titles: There are a few instances where the job title is missing in the demography table.
+To address this, it would be helpful to provide a valid job type for these individuals or replace the missing values with a general category such as "Others."
+
+4. Meaningful Job Industry Category: Instead of using "n/a" as the job industry category, 
+I suggest using more meaningful words that accurately describe the industry or provide additional context.
+
+5. Removing Meaningless Default Column: There appears to be a default column in the demography table that does not serve any meaningful purpose.
+It would be beneficial to remove this column to reduce clutter and improve data clarity.
+
+6. Categorization Data: When working with categories involving country, region, state, or any other geographical information,
+it is crucial to ensure the data is accurate and appropriately represented to support our analysis.
+
+I kindly request your assistance in implementing these improvements to our data. By addressing these issues, we can enhance the quality of our analysis and decision-making processes. If you have any questions or require further clarification regarding these suggestions, please feel free to reach out to me.
+
+Thank you for your attention to this matter.
+
+Best regards,
+Abishek Rajasegar.
